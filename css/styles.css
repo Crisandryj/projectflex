@@ -1,0 +1,198 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+/*Header*/
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin:20px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin: 0;
+    
+}
+
+header {
+    font-weight: 800;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 90%;
+    list-style-type: none;
+    color: white;
+}
+
+.links{
+    display:flex;
+    gap:10px;
+    align-items: center;
+
+}
+
+.background{
+    background-color: #1F2937;
+    color: white;
+    padding:10px;
+}
+
+.large{
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 200px;
+}
+
+/*first row*/
+
+.first{
+    display:flex;
+    justify-content: space-between;
+}
+
+#top {
+    width: 400px;
+    height:200px;
+    margin-top:20px;
+    border:0;
+    border-radius: 0;
+
+}
+.left  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:100px;
+    
+}
+.right {
+    padding-right: 50px;
+}
+.small{
+    width: 320px;
+}
+
+button{
+    width: 100px;
+    background-color: rgb(28, 28, 207);
+    color: white;
+    margin:0;
+    border-radius:5px ;
+}
+
+/*images row*/
+
+.images{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+.midhead{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin:0px 50px 0px 50px;
+    
+    border: 2px solid #2136ad;
+    border-radius: 10px;
+   
+}
+
+.imgcontain{
+    width: 200px;
+    padding: 10px;
+ 
+}
+
+
+p{
+    width: 200px;
+    margin:0px 50px 30px 50px;
+}
+
+/*third row*/
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(211, 207, 207);
+  
+}
+
+#quote {
+    width:600px;
+    font-size: 22px;
+
+}
+
+#signing {
+   display: flex;
+   justify-content: flex-end;
+   width: 600px;
+   flex:1;
+   
+
+}
+
+/*last row*/
+
+.action {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   background-color: blue;
+   margin: 75px auto 100px auto;
+   height: 125px;
+   width: 800px;
+   border-radius:5px ;
+
+    
+}
+
+.item{
+width: 500px;
+height: auto;
+padding:0;
+margin: 0px 10px 0 0;
+color: white;
+}
+
+#button{
+    background-color: blue;
+    height: 30px;
+    border: 2px solid #efeff3;
+    
+    
+}
+
+.actionitems{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item.bold {
+    font-weight: 900;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    color: white;
+    margin:5px;
+    height: 100px;
+    
+}
